@@ -10,7 +10,7 @@ class Favourite extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         actions: [
-          Row(  git
+          Row(
             children: [
               Text(
                 "Favourite",
