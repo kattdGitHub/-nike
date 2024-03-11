@@ -2,8 +2,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:nike_shose/dashboard_Screen/Detail.dart';
-import 'package:nike_shose/utils/helpers.dart';
+import 'package:nike_shoes/dashboard_Screen/Detail.dart';
+import 'package:nike_shoes/utils/helpers.dart';
 
 class Home extends StatelessWidget {
   const Home({super.key});

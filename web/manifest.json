@@ -1,6 +1,6 @@
 {
-    "name": "nike_shose",
-    "short_name": "nike_shose",
+    "name": "nike_shoes",
+    "short_name": "nike_shoes",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

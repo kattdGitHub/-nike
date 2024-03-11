@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:nike_shose/utils/helpers.dart';
+import 'package:nike_shoes/utils/helpers.dart';
 
 import 'Forget_Password.dart';
 

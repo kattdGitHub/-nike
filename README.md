@@ -1,4 +1,4 @@
-# nike_shose
+# nike_shoes
 
 A new Flutter project.
 

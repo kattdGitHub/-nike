@@ -1,4 +1,4 @@
-package Pst.example.nike_shose
+package Pst.example.nike_shoes
 
 import io.flutter.embedding.android.FlutterActivity
 

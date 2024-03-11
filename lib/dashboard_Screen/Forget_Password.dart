@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:nike_shose/dashboard_Screen/Home.dart';
+import 'package:nike_shoes/dashboard_Screen/Home.dart';
 
 import '../utils/helpers.dart';
 

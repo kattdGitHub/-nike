@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:nike_shose/dashboard_Screen/Sign_up.dart';
-import 'package:nike_shose/utils/helpers.dart';
+import 'package:nike_shoes/dashboard_Screen/Sign_up.dart';
+import 'package:nike_shoes/utils/helpers.dart';
 
 class Signin extends StatelessWidget {
   const Signin({super.key});
