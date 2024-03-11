@@ -18,6 +18,7 @@ class Assets {
   static const String assetsShose = 'assets/shose.png';
   static const String assetsX = 'assets/X.png';
   static const String dashboardScreenDetail = 'lib/dashboard_Screen/Detail.dart';
+  static const String dashboardScreenFavourite = 'lib/dashboard_Screen/Favourite.dart';
   static const String dashboardScreenForgetPassword = 'lib/dashboard_Screen/Forget_Password.dart';
   static const String dashboardScreenHome = 'lib/dashboard_Screen/Home.dart';
   static const String dashboardScreenOnboard1 = 'lib/dashboard_Screen/onboard1.dart';
