@@ -3,11 +3,14 @@ class Assets {
   Assets._();
 
   static const String assetsAddidas = 'assets/addidas.png';
+  static const String assetsBlackshoes = 'assets/blackshoes.png';
   static const String assetsBlueshoes = 'assets/blueshoes.png';
+  static const String assetsCong = 'assets/cong.png';
   static const String assetsConver = 'assets/Conver.png';
   static const String assetsEye = 'assets/Eye.png';
   static const String assetsGoogle = 'assets/Google.svg';
   static const String assetsIconbeg = 'assets/iconbeg.png';
+  static const String assetsMap = 'assets/Map.png';
   static const String assetsMycartnikebuleshoes = 'assets/mycartnikebuleshoes.png';
   static const String assetsNike = 'assets/Nike.png';
   static const String assetsNikeAirJordan = 'assets/NikeAirJordan.png';
@@ -16,6 +19,7 @@ class Assets {
   static const String assetsOnboard1 = 'assets/onboard1.png';
   static const String assetsOnboard2 = 'assets/Onboard2.png';
   static const String assetsOnboard3 = 'assets/Onboard3.png';
+  static const String assetsPayment = 'assets/payment.png';
   static const String assetsPngaaa = 'assets/pngaaa.png';
   static const String assetsPume = 'assets/Pume.png';
   static const String assetsRed = 'assets/red.png';
@@ -28,6 +32,7 @@ class Assets {
   static const String dashboardScreenForgetPassword = 'lib/dashboard_Screen/Forget_Password.dart';
   static const String dashboardScreenHome = 'lib/dashboard_Screen/Home.dart';
   static const String dashboardScreenMyCart = 'lib/dashboard_Screen/myCart.dart';
+  static const String dashboardScreenNotifications = 'lib/dashboard_Screen/notifications.dart';
   static const String dashboardScreenOnboard1 = 'lib/dashboard_Screen/onboard1.dart';
   static const String dashboardScreenOnboard2 = 'lib/dashboard_Screen/Onboard2.dart';
   static const String dashboardScreenOnboard3 = 'lib/dashboard_Screen/Onboard3.dart';
