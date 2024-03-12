@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:nike_shoes/dashboard_Screen/Home.dart';
 
 import '../utils/helpers.dart';
 
@@ -240,20 +241,22 @@ class CheckOut extends StatelessWidget {
                         ), SizedBox(
                           height: 20.h,
                         ),
-                        Container(
-                          height: 54.h,
-                          width: 200.w,
-                          decoration: BoxDecoration(
-                            color: Color(0xff5B9EE1),
-                            borderRadius: BorderRadius.circular(30.r),
-                          ),
-                          child: Center(
-                            child: Text(
-                              "Back To Shopping",
-                              style: TextStyle(
-                                  color: Colors.white,
-                                  fontSize: 18.sp,
-                                  fontWeight: FontWeight.w500),
+                        InkWell(onTap: () => pushTo (context,Home()),
+                          child: Container(
+                            height: 54.h,
+                            width: 200.w,
+                            decoration: BoxDecoration(
+                              color: Color(0xff5B9EE1),
+                              borderRadius: BorderRadius.circular(30.r),
+                            ),
+                            child: Center(
+                              child: Text(
+                                "Back To Shopping",
+                                style: TextStyle(
+                                    color: Colors.white,
+                                    fontSize: 18.sp,
+                                    fontWeight: FontWeight.w500),
+                              ),
                             ),
                           ),
                         ),

@@ -7,6 +7,9 @@ class Notifications extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
+
+
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
@@ -191,7 +194,8 @@ class Notifications extends StatelessWidget {
                 ],
               )
             ],
-          ),  Row(
+          ),
+          Row(
             children: [
               Image(
                 image: AssetImage("assets/nila.png"),
@@ -206,8 +210,16 @@ class Notifications extends StatelessWidget {
                         "We Have New",
                         style: TextStyle(
                             color: Colors.black, fontWeight: FontWeight.w500),
-                      ),SizedBox(width: 80.w,),Text("26 min ago",   style:
-                      TextStyle(color: Colors.black,),)
+                      ),
+                      SizedBox(
+                        width: 80.w,
+                      ),
+                      Text(
+                        "26 min ago",
+                        style: TextStyle(
+                          color: Colors.black,
+                        ),
+                      )
                     ],
                   ),
                   Text(

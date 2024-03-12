@@ -2,6 +2,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:nike_shoes/dashboard_Screen/myCart.dart';
+import 'package:nike_shoes/utils/helpers.dart';
 
 class Detail extends StatelessWidget {
   const Detail({super.key});
@@ -152,7 +154,7 @@ class Detail extends StatelessWidget {
                    Container(height: 30.h,width: 30.h,child:  Center(
                      child: Text(
                        "40",
-                       style: TextStyle(color: Colors.black54, fontSize: 20.sp),
+                       style: TextStyle(color: Colors.white, fontSize: 20.sp),
                      ),
                    ),decoration: BoxDecoration(color: Color(0xff5B9EE1),borderRadius: BorderRadius.circular(15.r)),),
                     SizedBox(
@@ -197,17 +199,19 @@ class Detail extends StatelessWidget {
                     SizedBox(
                       width: 70.w,
                     ),
-                    Container(
-                      height: 54.h,
-                      width: 167.w,
-                      decoration: BoxDecoration(
-                        color: Color(0xff5B9EE1),
-                        borderRadius: BorderRadius.circular(30.r),
-                      ),
-                      child: Center(
-                        child: Text(
-                          "Add To Cart",
-                          style: TextStyle(color: Colors.white,fontSize: 20.sp),
+                    InkWell(onTap: () => pushTo(context, MyCart()),
+                      child: Container(
+                        height: 54.h,
+                        width: 167.w,
+                        decoration: BoxDecoration(
+                          color: Color(0xff5B9EE1),
+                          borderRadius: BorderRadius.circular(30.r),
+                        ),
+                        child: Center(
+                          child: Text(
+                            "Add To Cart",
+                            style: TextStyle(color: Colors.white,fontSize: 20.sp),
+                          ),
                         ),
                       ),
                     )

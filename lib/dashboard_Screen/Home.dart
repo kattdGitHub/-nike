@@ -5,6 +5,9 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:nike_shoes/dashboard_Screen/Detail.dart';
 import 'package:nike_shoes/utils/helpers.dart';
 
+import 'Favourite.dart';
+import 'notifications.dart';
+
 class Home extends StatelessWidget {
   const Home({super.key});
 
@@ -330,25 +333,32 @@ class Home extends StatelessWidget {
         selectedItemColor: Colors.blue,
         items: [
           BottomNavigationBarItem(
-            icon: InkWell(onTap: () => pushTo(context,Detail()),
-                child: Icon(Icons.home,color: Colors.black54)),
+            icon: InkWell(
+                onTap: () => pushTo(context, Detail()),
+                child: Icon(Icons.home, color: Colors.black54)),
             label: 'Home',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.favorite,color: Colors.black54),
+            icon: InkWell(onTap: () => pushTo(context,Favourite()),
+                child: Icon(Icons.favorite, color: Colors.black54)),
             label: 'Favorites',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.add_alert_sharp,color: Colors.black54), // Heart icon
+            icon: InkWell(
+                onTap: () => pushTo(context, Notifications()),
+                child: Icon(Icons.add_alert_sharp, color: Colors.black54)),
+            // Heart icon
             label: 'Notification',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.person,color: Colors.black54,),
+            icon: Icon(
+              Icons.person,
+              color: Colors.black54,
+            ),
             label: 'Profile',
           ),
         ],
       ),
-
     );
   }
 }
